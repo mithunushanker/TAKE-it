@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTube||Grade IX</title>
+    <link rel="stylesheet" href="studytube.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!---NavBar-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        
+        <h3 style="color: blue;">Study Tube</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto mb-lg-0">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item avatar dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Subjects
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+                    aria-labelledby="navbarDropdownMenuLink-55">
+                    <a class="dropdown-item" href="https://mathelogy.netlify.app">Maths</a>
+                    <a class="dropdown-item" href="science.html">Science</a>
+                    <a class="dropdown-item" href="english.html">English</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
+      </nav>
+      <!--Home-->
+      <section id="home">
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+          <div class="col-12">
+          <center><img src="imghome.jpg" alt=""  width="360" ></center>
+          <center><h2>Hello Learner</h2></center>
+          <center><p>Hello Learner, Are you curious to learn Something new then you have reached the right page. <br>
+              this page provides you all the notes you need to learn.
+          </p></center>
+        </div>
+    </div>
+      </section>
+      <hr>
+      <!--Subjects-->
+      <section id="subjects">
+          <br><br><br>
+          <center><h2> Our Subjects</h2></center>
+          <center><p>we provide notes for all 4 main subjects. 
+              <div class="boxed"><br>
+         <br> <h4><a href="#">English</a> </h4><br> <h4><a href="science.html">Science</a></h4> <br> <h4><a href="https://mathelogy.netlify.app">Maths</a> </h4> <br> <h4><a href="#">Social Science</a> </h4>
+    </p></center>
+              </div>
+      
+
+      </section>
+      <hr>
+      <!--Services-->
+      <section id="services">
+          <center><img src="serv.svg" alt="" width="360"></center>
+          <br>
+       <center><h1>Services</h1></center>
+       <center><p>we are providing cbse class 9 notes for now. <br>
+           and in the idea improving our website with all classes notes 
+           and sample papers. <br> exercises and more.all we need is your support. <br>
+           <b>Users can send their notes to <a href="mailto:mithunshanker77@gmail.com ">this email</a> for helping us</b>
+       </p></center>
+<br><br>
+<hr>
+<br><br>
+
+
+    </div>
+    
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Tube||Grade IX||Science</title>
+
+    <!--CSS-->
+
+    <style>
+
+      .loader{
+       position: fixed;
+       z-index: 999999;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: #fff;
+       width: 100%;
+       height: 100%;
+     }
+        body{
+       margin: 0;
+       padding:0 ;
+       background:none;
+     }
+     li{
+       letter-spacing:1px;
+     }
+     a{
+       color: rgb(0, 26, 255);
+       transition:1s;
+     }
+     a:hover{
+       text-decoration: none;
+     }
+     #navbar{
+       border-bottom: 1px solid rgb(0, 0, 0);
+       margin-bottom: 40px;
+     }
+     .navbar {
+       background-color: transparent;
+       backdrop-filter: blur(7px);
+   box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px 0px;
+     }
+     /*NAVBAR*/
+
+ /*ACCORDION*/
+ #accordionExample{
+   margin-top: 35px;
+     border: none;
+ }
+     .chapter-name{
+         font-weight: 750;
+         color: #343a40;
+         background: transparent;
+         letter-spacing:2px;
+     }
+     .chapter-name:hover{
+       text-decoration: none;
+       color: #252525;
+     }
+     .card-header{
+       background: transparent;
+
+     }
+     .card-body ol li a{
+         text-decoration: none;
+         color: #343a40;
+         letter-spacing:2px;
+     }
+     .btn-chapterdownload{
+       font-weight: 600;
+       letter-spacing:1px;
+       border: none;
+       outline: none;
+     }
+     .grid-img{
+         margin-top: 110px;
+         width: 100%;
+     }
+     @media (max-width: 650px) {
+         .grid-img{
+           margin-top: -110px;
+           opacity: 0;
+           width: 0;
+           height: 0;
+         }
+         hr{
+           opacity: 0;
+           margin-top: -28%;
+         }
+
+         .btn-chapterdownload{
+           margin-top: 10px;
+         }
+
+     }
+
+     /**/
+     .bookdownload p{
+       font-family:-apple-system, 'Helvetica Neue', sans-serif;
+       font-weight: 700;
+       letter-spacing: 2px;
+     }
+     .bookdownload b{
+       color: rgb(99, 99, 99);
+       letter-spacing:1px;
+       padding-left: 3px;
+       padding-right: 3px;
+     }
+
+     #footer{
+
+       background-color:black;
+     }
+
+body{
+  background-color: white;
+}
+   </style>
+
+</head>
+<body>
+  <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >
+    <center>SCIENCE</center>
+  </h1>
+<section class="accordion mt-3" id="grid">
+    <div class="container" id="container">
+      <div class="row">
+        <div class="col-md-8">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                       <span class='chapter-name'>1. Matter in our surroundings</span>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ol>
+                          <li><a class="links">Introduction</a></li>
+                          <li><a class="links">Physical nature of Matter</a></li>
+                          <li><a class="links">charecteristics of particles of Matter</a></li>
+                          <li><a class="links">states of Matter</a></li>
+                          <li><a class="links">can matter change its state</a></li>
+                          <li><a class="links">evaparation</a></li>
+                          <li><a class="links">summary</a></li>
+                          </ol>
+
+                          <a href="https://drive.google.com/file/d/1-dgdARfkKMXB63Xalx0k29VhtBHYydeS/view?usp=sharing" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class='chapter-name' align="center">2. Is Matter Around us pure</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">what is a mixture ?</a></li>
+                            <li><a class="links">what is a solution</a></li>
+                            <li><a class="links">seperating the components od mixture</a></li>
+                            <li><a class="links">physical and chemical changes</a></li>
+                            <li><a class="links"></a>what are  the types of pure substances</li>
+                            <li><a class="links">Summary</a></li>
+                          </ol>
+
+
+                          <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class='chapter-name'>3. Atoms and Molecules</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">laws of chemical combination</a></li>
+                            <li><a class="links">what is an atom</a></li>
+                            <li><a class="links">what is a molecule</a></li>
+                            <li><a class="links">writing chemical formulaes</a></li>
+                            <li><a class="links">molecular mass and mole concept</a></li>
+                            <li><a class="links">Summary</a></li>
+                          </ol>
+
+
+                          <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span class='chapter-name'>4. Structure of Atom</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">charged particles in Matter</a></li>
+                            <li><a class="links">the sturucture of an Atom</a></li>
+                            <li><a class="links">how are electrons didtributed in different orbits(shells)?</a></li>
+                            <li><a class="links">valency</a></li>
+                            <li><a class="links">atomic number and mass number</a></li>
+                            <li><a class="links">isotopes</a></li>
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <span class='chapter-name'>5. The fundamental unit of life</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">what are living organisms made of?</a></li>
+                            <li><a class="links">what is a cell made up of? what is the structural organisation of cell?</a></li>
+
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="https://drive.google.com/file/d/1DYiGjjxXjvlw_NgvxxmtblwLddjNHEVA/view?usp=sharing" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <span class='chapter-name'>6.  Tissues</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">are plants and animals made of ame types of tissues</a></li>
+                            <li><a class="links">plant tissues</a></li>
+                            <li><a class="links">animal Tissues</a></li>
+
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingSeven">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <span class='chapter-name'>7.  Diversity in living Organisms</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                          <li><a class="links">Introduction</a></li>
+                          <li><a class="links">what is the basis of classification</a></li>
+                          <li><a class="links">classification and evolution</a></li>
+                          <li><a class="links">the hierachy of class fication groups</a></li>
+                          <li><a class="links">plantae</a></li>
+                          <li><a class="links">animalia</a></li>
+                          <li><a class="links">nomenclature</a></li>
+                          <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingEight">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <span class='chapter-name'>8. Motion</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">describing motion</a></li>
+                            <li><a class="links">speed with direction</a></li>
+                            <li><a class="links">rate of change of velocity</a></li>
+                            <li><a class="links">graphical Representation of Motion</a></li>
+                            <li><a class="links">equation of motion by graphical method</a></li>
+                            <li><a class="links">uniform circular Motion</a></li>
+                            <li><a class="links">summary</a></li>
+                            </ol>
+
+
+                            <a href="https://drive.google.com/file/d/1fPfBcJrcwsGTZU06STDasVFrC5210EG-/view?usp=sharing" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingNine">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <span class='chapter-name'>9. Force and Laws of motion </span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">balanced and unbalanced force</a></li>
+                            <li><a class="links">first law of Motion</a></li>
+                            <li><a class="links">inertia and mass</a></li>
+                            <li><a class="links">second law of Motion</a></li>
+                            <li><a class="links">mathematical formulation of second law of Motion</a></li>
+                            <li><a class="links">third law of motion</a></li>
+                            <li><a class="links">conservation of momentum</a></li>
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTen">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                          <span class='chapter-name'>10. Gravitation</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ol>
+                          <li><a class="links">Introduction</a></li>
+                          <li><a class="links">Gravitation</a></li>
+                          <li><a class="links">free fall</a></li>
+                          <li><a class="links">mass</a></li>
+                          <li><a class="links">weight</a></li>
+                          <li><a class="links">pressure in fuids</a></li>
+                          <li><a class="links">archimedes' principle/a></li>
+                          <li><a class="links">relative density</a></li>
+                          <li><a class="links">Summary</a></li>
+                          </ol>
+                         <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingEleven">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            <span class='chapter-name'>11. Work and energy</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">work</a></li>
+                            <li><a class="links">energy</a></li>
+                            <li><a class="links">rate of doing work</a></li>
+
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwelve">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                            <span class='chapter-name'>12. Sound</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">production of sound </a></li>
+                            <li><a class="links">propagation of sound </a></li>
+                            <li><a class="links">reflection of Sound</a></li>
+                            <li><a class="links">range of hearing</a></li>
+                            <li><a class="links">applications of ultra Sound</a></li>
+                            <li><a class="links">structure of human ear</a></li>
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThirteen">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                            <span class='chapter-name'>13. Why do we fall ill</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">health and its failure</a></li>
+                            <li><a class="links">disease and its causes</a></li>
+                            <li><a class="links">infectious diseases</a></li>
+
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFourteen">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                            <span class='chapter-name'>14. Natural Resources</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">the breath of life air </a></li>
+                            <li><a class="links">water:a wonder liquid</a></li>
+                            <li><a class="links">mineral riches in the soil</a></li>
+                            <li><a class="links">biogeochemical</a></li>
+                            <li><a class="links">ozone layer</a></li>
+                            <li><a class="links">Summary</a></li>
+                            </ol>
+
+
+                            <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-2">
+                    <div class="card-header" id="headingFifteen">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed bg-white" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                            <span class='chapter-name'>15. Improvement in food Resources</span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+                      <div class="card-body">
+                          <ol>
+                            <li><a class="links">Introduction</a></li>
+                            <li><a class="links">Improvement in crop yeilds</a></li>
+                            <li><a class="links">animal husbandary</a></li>
+
+                            <li><a class="links">Summary</a></li>
+                          </ol>
+
+
+                          <a href="#" download class="links"><button class="btn-chapterdownload btn btn-primary px-2">Download full notes</button></a>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <img class="grid-img pt-3" src="3394878.jpg" alt="Take Mathematics notes from mathelogy">
+          <hr>
+          <img class="grid-img " src="imghome.jpg" alt="Take Mathematics notes from mathelogy">
+          <hr>
+        </div>
+        </div>
+ </div>
+
+ </section>
+ <footer class="py-8 py-md-11 py-5" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <!-- Brand -->
+        <img src="assets/img/footerimg.png" width="240" height="70" alt="MATHELOGY" style="border-radius: 5px;">
+
+        <!-- Text -->
+        <p class="text text-muted py-2">
+          <b><i> - Do, Learn & Use SCIENCE.</i></b>
+        </p>
+
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+          <li class="list-inline-item list-social-item me-3">
+            <a href="mailto:saisrikanth2007@outlook.com" class="text-decoration-none text-warning">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+
+        <!-- Heading -->
+        <h6 class="fw-bold text-uppercase text-gray-700">
+          board
+        </h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="https://www.cbse.gov.in/" target="_blank" class="text-reset">
+             CBSE
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+
+        <!-- Heading -->
+        <h6 class="fw-bold text-uppercase text-gray-700">
+          syllabus
+        </h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="http://ncert.nic.in/" target="_blank" class="text-reset">
+              NCERT
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+
+        <!-- Heading -->
+        <h6 class="fw-bold text-uppercase text-gray-700">
+          Company
+        </h6>
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="#" class="text-reset" data-toggle="modal" data-target="#exampleModal">
+              About Us
+            </a>
+          </li>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><b>TEAM Study Tube</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">X</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>We are a trival community of students who work for benefit of similar students who struggle taking Maths notes Online.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--MOdal END-->
+          <li class="mb-3">
+            <a href="#!" class="text-reset">
+              Class IX
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="https://calculator-mathelogy.netlify.app" class="text-reset">
+              Calculator<img src="https://img.icons8.com/material-rounded/24/fa314a/new.png"/>
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="https://mathelogy-signin.web.app" class="text-reset">
+              Sign In
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+
+        <!-- Heading -->
+        <h6 class="fw-bold text-uppercase text-gray-700">
+          contact us
+        </h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="mailto:saisrikanth2007@outlook.com" class="text-reset">
+              via   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg> e-mail
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
